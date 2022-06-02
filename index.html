@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive Admin & Dashboard</title>
+  <link rel="stylesheet" href="main.css">
+  <!-- box icon -->
+  <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+</head>
+
+<body>
+  <div class="sidebar">
+    <div class="logo_details">
+      <i class='bx bx-code-alt'></i>
+      <div class="logo_name">
+        <h2>CG Docs</h2>
+
+      </div>
+    </div>
+    <ul>
+      <li>
+        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
+          Launch demo modal
+        </button>
+        
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                ...
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Save changes</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+      </li>
+      
+      <li>
+        <a href="#">
+          <i class='bx bxs-home'></i>
+          <span class="links_name">
+            Home
+          </span>
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <i class='bx bxs-videos'></i>
+          <span class="links_name">
+            Videos
+          </span>
+        </a>
+      </li>
+      <li>
+        <a href="#">
+
+          <i class='bx bxs-photo-album'></i>
+          <span class="links_name">
+            Photos
+          </span>
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <i class='bx bxs-time-five'></i>
+          <span class="links_name">
+            Recents
+          </span>
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <i class='bx bxs-trash'></i>
+          <span class="links_name">
+            Trash
+          </span>
+        </a>
+      </li>
+      <!-- <li>
+        <a href="#">
+          <i class='bx bx-heart'></i>
+          <span class="links_name">
+            Saved
+          </span>
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <i class='bx bx-cog'></i>
+          <span class="links_name">
+            Setting
+          </span>
+        </a>
+      </li> -->
+      <li class="login">
+        <a href="#">
+          <span class="links_name login_out">
+            Log Out
+          </span>
+          <i class='bx bx-log-out' id="log_out"></i>
+        </a>
+      </li>
+    </ul>
+  </div>
+  <!-- End Sideber -->
+  <section class="home_section">
+    <div class="topbar">
+      <div class="toggle">
+        <i class='bx bx-menu' id="btn"></i>
+      </div>
+      <div class="search_wrapper">
+        <label>
+          <span>
+            <i class='bx bx-search'></i>
+          </span>
+          <input type="search" placeholder="Search...">
+        </label>
+      </div>
+      <span class="topnav"><i class='bx bx-cog bx-sm'></i></span>
+
+
+      <span class="topnav"> <i class='bx bxs-bell-ring bx-sm'></i></span>
+
+
+      <div class="user_wrapper">
+        <img src="img/user.jpg" alt="">
+      </div>
+    </div>
+    <!-- End Top Bar -->
+    <div class="card-boxes">
+      <div class="box">
+        <div class="right_side">
+          <div class="numbers"></div>
+          <div class="box_topic"></div>
+        </div>
+        <span class="iconify" data-icon="bx:file"></span>
+      </div>
+      <div class="box">
+        <div class="right_side">
+          <div class="numbers"></div>
+          <div class="box_topic"></div>
+        </div>
+        <span class="iconify" data-icon="bx:file"></span>
+      </div>
+      <div class="box">
+        <div class="right_side">
+          <div class="numbers"></div>
+          <div class="box_topic"></div>
+        </div>
+        <span class="iconify" data-icon="bx:file"></span>
+      </div>
+      <div class="box">
+        <div class="right_side">
+          <div class="numbers"></div>
+          <div class="box_topic"></div>
+        </div>
+        <span class="iconify" data-icon="bx:file"></span>
+      </div>
+    </div>
+
+    <div class="card-boxes">
+      <div class="box">
+        <div class="right_side">
+          <div class="numbers"></div>
+          <div class="box_topic"></div>
+        </div>
+        <span class="iconify" data-icon="bx:file"></span>
+      </div>
+      <div class="box">
+        <div class="right_side">
+          <div class="numbers"></div>
+          <div class="box_topic"></div>
+        </div>
+        <span class="iconify" data-icon="bx:file"></span>
+      </div>
+      <div class="box">
+        <div class="right_side">
+          <div class="numbers"></div>
+          <div class="box_topic"></div>
+        </div>
+        <span class="iconify" data-icon="bx:file"></span>
+      </div>
+      <div class="box">
+        <div class="right_side">
+          <div class="numbers"></div>
+          <div class="box_topic"></div>
+        </div>
+        <span class="iconify" data-icon="bx:file"></span>
+      </div>
+    </div>
+    <!-- End Card Boxs -->
+    <div class="details">
+      <div class="recent_project">
+        <div class="card_header">
+          <h2>All Files</h2>
+        </div>
+        <table>
+          <thead>
+            <tr>
+              <td>Name</td>
+              <td>Last Modified</td>
+              <td>Size</td>
+              <td>Owner</td>
+              <td>Members</td>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Dropbox Design System</td>
+              <td>34</td>
+              <td>
+                <span class="badge bg_worning">
+                  Medium
+                </span>
+              </td>
+              <td></td>
+              <td>
+                <span class="img_group">
+                  <img src="img/avatar-2.jpg" alt="">
+                </span>
+                <span class="img_group">
+                  <img src="img/avatar-3.jpg" alt="">
+                </span>
+                <span class="img_group">
+                  <img src="img/avatar-4.jpg" alt="">
+                </span>
+                <span class="img_group">
+                  <span class="initial">+5</span>
+                </span>
+              </td>
+            </tr>
+            <tr>
+              <td>Slack Team UI Design</td>
+              <td>47</td>
+              <td>
+                <span class="badge bg_danger">
+                  High
+                </span>
+              </td>
+              <td></td>
+              <td>
+                <span class="img_group">
+                  <img src="img/avatar-5.jpg" alt="">
+                </span>
+                <span class="img_group">
+                  <img src="img/avatar-2.jpg" alt="">
+                </span>
+                <span class="img_group">
+                  <img src="img/avatar-3.jpg" alt="">
+                </span>
+                <span class="img_group">
+                  <span class="initial">+5</span>
+                </span>
+              </td>
+            </tr>
+            <tr>
+              <td>Github Satellite</td>
+              <td>120</td>
+              <td>
+                <span class="badge bg_info">
+                  Low
+                </span>
+              </td>
+              <td></td>
+              <td>
+                <span class="img_group">
+                  <img src="img/avatar-4.jpg" alt="">
+                </span>
+                <span class="img_group">
+                  <img src="img/avatar-5.jpg" alt="">
+                </span>
+                <span class="img_group">
+                  <img src="img/avatar-2.jpg" alt="">
+                </span>
+                <span class="img_group">
+                  <span class="initial">+1</span>
+                </span>
+              </td>
+            </tr>
+            <tr>
+              <td>3D character Moddelling</td>
+              <td>89</td>
+              <td>
+                <span class="badge bg_worning">
+                  Medium
+                </span>
+              </td>
+              <td></td>
+              <td>
+                <span class="img_group">
+                  <img src="img/avatar-3.jpg" alt="">
+                </span>
+                <span class="img_group">
+                  <img src="img/avatar-4.jpg" alt="">
+                </span>
+                <span class="img_group">
+                  <img src="img/avatar-5.jpg" alt="">
+                </span>
+                <span class="img_group">
+                  <span class="initial">+5</span>
+                </span>
+              </td>
+            </tr>
+            <tr>
+              <td>Web app Design System</td>
+              <td>108</td>
+              <td>
+                <span class="badge bg_seccuss">
+                  Track
+                </span>
+              </td>
+              <td></td>
+              <td>
+                <span class="img_group">
+                  <img src="img/avatar-2.jpg" alt="">
+                </span>
+                <span class="img_group">
+                  <img src="img/avatar-3.jpg" alt="">
+                </span>
+                <span class="img_group">
+                  <img src="img/avatar-4.jpg" alt="">
+                </span>
+                <span class="img_group">
+                  <span class="initial">+5</span>
+                </span>
+              </td>
+            </tr>
+            <tr>
+              <td>Github Event Design</td>
+              <td>120</td>
+              <td>
+                <span class="badge bg_info">
+                  Low
+                </span>
+              </td>
+              <td></td>
+              <td>
+                <span class="img_group">
+                  <img src="img/avatar-5.jpg" alt="">
+                </span>
+                <span class="img_group">
+                  <img src="img/avatar-2.jpg" alt="">
+                </span>
+                <span class="img_group">
+                  <img src="img/avatar-3.jpg" alt="">
+                </span>
+                <span class="img_group">
+                  <span class="initial">+1</span>
+                </span>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+    </div>
+  </section>
+
+  
+  <script src="https://code.iconify.design/2/2.2.1/iconify.min.js"></script>
+  <script src="./script.js"></script>
+
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
